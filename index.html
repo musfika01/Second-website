@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Corner</title>
+    <link rel="shortcut icon" href="image/icon.png" type="image/x-icon">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="food website.css">
+</head>
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img class="w-25" src="image/website logo.png">
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fs-5 fw-bolder" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bolder" href="#">Hot Item</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5 fw-bolder">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Carousel start --> 
+
+    <div id="carouselExampleIndicators" class="carousel slide container">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+        <div class="inside">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-6">
+                    <h1>Delicious Food</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut quaerat quae, qui dolorem labore! Suscipit dignissimos omnis iusto officia.</p>
+                    <button class="btn btn-dark">Buy Now</button>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <img class="img img-fluid" src="image/banner-1.jpg">
+                  </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                  <h1>Delicious Food</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut quaerat quae, qui dolorem labore! Suscipit dignissimos omnis iusto officia.</p>
+                  <button class="btn btn-dark">Buy Now</button>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img class="img img-fluid" src="image/banner-2.jpg">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center">
+                <div class="col-12 col-lg-6">
+                  <h1>Delicious Food</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut quaerat quae, qui dolorem labore! Suscipit dignissimos omnis iusto officia.</p>
+                  <button class="btn btn-dark">Buy Now</button>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <img class="img img-fluid" src="image/banner-3.jpg">
+                </div>
+              </div>
+            </div>
+        </div>     
+        </div>
+      </div>
+    </div>
+
+    <!-- Product section -->
+    <section class="container">
+      <div class="d-flex justify-content-between mt-4 mb-4 fw-bold fs-4">
+        <span>Menu</span>
+        <span>See All</span>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/Menu-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Juicy Burger</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="d-flex justify-content-between">
+                <span>$80</span>
+                <button class="btn btn-dark">Order Now</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/menu-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fried Chicken</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="d-flex justify-content-between">
+                <span>$150</span>
+                <button class="btn btn-dark">Order Now</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="image/menu-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <div class="d-flex justify-content-between">
+                <span>$190</span>
+                <button class="btn btn-dark">Order Now</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Categories section -->
+    <section class="container mt-5 mb-5">
+      <h4>Categories</h4>
+        <div class="row justify-content-evenly align-items-center">
+          <div class="col-12 col-lg-6">
+            <div class="row justify-content-between align-items-center">
+                <div class="col">
+                  <img class="Categories-img rounded img-fluid " src="image/Categories-1.png">
+                </div>
+                <div class="col">
+                  <img class="d-block mb-4 Categories-img rounded img-fluid" src="image/Categories-2.png">
+                  <img class="d-block mt-4 Categories-img rounded img-fluid" src="image/Categories-3.png">
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+                <img class="c-img img-fluid" src="image/chef.png">
+          </div>
+        </div>   
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
